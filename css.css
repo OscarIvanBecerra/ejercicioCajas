@@ -6,29 +6,33 @@ body, html {
 header{
     background-color: rgb(255, 120, 255);
     height: 60px;
-}
-
-section{
-    background-color: rgb(18, 131, 84);
-    display: flex;
+    grid-area: header;
 }
 
 nav{
-    width: 25%;
     background-color: coral;
+    grid-area: menu;
 }
 
 footer{
     background-color: aquamarine;
     height: 80px;
+    clear: both;
+    grid-area: footer;
 }
 article{
-    width: 75%;
     height: 250px;
     background-color: beige;
+    grid-area: content;
 }
 #container{
     margin:0 auto;
     width:1200px;
     background-color: orange;
+    display: grid;
+    grid-template-areas: 
+    'header header header header'
+    'content content content menu'
+    'footer footer footer footer'
+    ;
 }
