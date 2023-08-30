@@ -10,13 +10,12 @@ header{
 
 section{
     background-color: rgb(18, 131, 84);
-    overflow: hidden;
+    display: flex;
 }
 
 nav{
     width: 25%;
     background-color: coral;
-    float: left;
 }
 
 footer{
@@ -27,7 +26,6 @@ article{
     width: 75%;
     height: 250px;
     background-color: beige;
-    float: left;
 }
 #container{
     margin:0 auto;
