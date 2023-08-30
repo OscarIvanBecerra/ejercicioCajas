@@ -1,0 +1,36 @@
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(255, 120, 255);
+    height: 60px;
+}
+
+section{
+    background-color: rgb(18, 131, 84);
+    overflow: hidden;
+}
+
+nav{
+    width: 25%;
+    background-color: coral;
+    float: left;
+}
+
+footer{
+    background-color: aquamarine;
+    height: 80px;
+}
+article{
+    width: 75%;
+    height: 250px;
+    background-color: beige;
+    float: left;
+}
+#container{
+    margin:0 auto;
+    width:1200px;
+    background-color: orange;
+}
